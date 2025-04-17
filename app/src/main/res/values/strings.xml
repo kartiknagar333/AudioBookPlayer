@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SoundSaga</string>
+    <string name="todo">TODO</string>
+    <string name="soundsaga">SoundSaga</string>
+    <string name="audio_books">Audio Books</string>
+    <string name="_15">15</string>
+    <string name="my_books">My Books</string>
+    <string name="search_audiobook_title_or_author_name">AudioBook Title or Author Name</string>
+    <string name="set_timer">Set Timer</string>
+    <string name="_1_0x">1.0x</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="_0_min">0min</string>
+</resources>

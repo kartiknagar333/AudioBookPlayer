@@ -1,0 +1,80 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E6DFE0"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/coverimg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/coverimg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/author"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/rubik_regular"
+        android:textColor="@color/brown"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/coverimg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/numchapter"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/brown"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/author"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/coverimg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/rubik_regular"
+        android:textColor="@color/brown"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/coverimg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/brown"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/duration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

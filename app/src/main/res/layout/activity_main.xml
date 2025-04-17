@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/main_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/toplabel"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:fontFamily="@font/rubik_black"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnhistory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toplabel"
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="0dp"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="12dp"
+        app:boxCornerRadiusTopStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundColor="@color/brown"
+        app:endIconTint="@color/white"
+        app:startIconTint="@color/white"
+        app:boxStrokeWidthFocused="0dp"
+        app:startIconDrawable="@drawable/round_search_24"
+        app:hintEnabled="false"
+        app:hintAnimationEnabled="false"
+        android:textColorHint="@color/white"
+        app:cursorColor="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/searchinput"
+            android:textColorHint="@color/light_brown"
+            android:hint="@string/search_audiobook_title_or_author_name"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/rubik_regular"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/btnhistory"
+        android:layout_margin="15dp"
+        android:src="@drawable/my_books_menu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/toplabel"
+        android:layout_width="34dp"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:id="@+id/secondlabel"
+        android:text="@string/audio_books"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rubik_regular"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainaudiobooklist"
+        android:layout_marginTop="10dp"
+        android:background="#4DFFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/secondlabel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
