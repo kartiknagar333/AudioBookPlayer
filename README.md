@@ -26,4 +26,20 @@ You can download the APK file for testing from the release below:
 
 ## Screenshots
 - **MainActivity**
-![audio](https://github.com/user-attachments/assets/20def6cc-9795-4f2f-ac04-345d4e0366f9)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/12d7d731-a92c-461b-8e43-45f2d07f6bdf" alt="Home" width="336" height="748"/>
+</div>
+<br>
+
+- **AudioBookActivity** (Portrait)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/20def6cc-9795-4f2f-ac04-345d4e0366f9" alt="Home" width="336" height="748"/>
+</div>
+<br>
+
+- **AudioBookActivity** (Landscape)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e4ab149c-3ccd-4ac0-8886-ed382d489be7" alt="Home" width="336" height="748"/>
+</div>
+<br>
+
