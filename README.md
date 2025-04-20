@@ -39,7 +39,7 @@ You can download the APK file for testing from the release below:
 
 - **AudioBookActivity** (Landscape)
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e4ab149c-3ccd-4ac0-8886-ed382d489be7" alt="Home" width="336" height="748"/>
+  <img src="https://github.com/user-attachments/assets/e4ab149c-3ccd-4ac0-8886-ed382d489be7" alt="Home" width="748" height="336"/>
 </div>
 <br>
 
