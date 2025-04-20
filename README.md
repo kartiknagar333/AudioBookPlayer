@@ -21,7 +21,9 @@ SoundSaga is an Android app that allows users to enjoy audiobooks with seamless 
 
 ## Download APK for Testing
 You can download the APK file for testing from the release below:
-- [Download v1.0 Testing APK](https://github.com/kartiknagar333/ChicagoCTABusTracker/releases/tag/v1.0)
+- [Download v1.0 Testing APK](https://github.com/kartiknagar333/AudioBookPlayer/releases/tag/v1.0)
 <br>  
 
 ## Screenshots
+- **MainActivity**
+![audio](https://github.com/user-attachments/assets/20def6cc-9795-4f2f-ac04-345d4e0366f9)
