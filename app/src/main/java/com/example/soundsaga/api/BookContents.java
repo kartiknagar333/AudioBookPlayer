@@ -14,7 +14,7 @@ import org.json.JSONException;
 import java.io.UnsupportedEncodingException;
 
 public class BookContents {
-    private static final String URL = "Your URL";
+    private static final String URL = "https://...com/ABooks/abook_contents.json";  // Set Your API URL
     private final MainActivity mainActivity;
     private JSONArray audiobooks = null;
 
