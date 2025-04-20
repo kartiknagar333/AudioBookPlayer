@@ -14,7 +14,7 @@ import org.json.JSONException;
 import java.io.UnsupportedEncodingException;
 
 public class BookContents {
-    private static final String URL = "https://christopherhield.com/ABooks/abook_contents.json";
+    private static final String URL = "Your URL";
     private final MainActivity mainActivity;
     private JSONArray audiobooks = null;
 
